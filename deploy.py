@@ -3,9 +3,7 @@ from azure.identity import ClientSecretCredential
 from fabric_cicd import FabricWorkspace, publish_all_items
 from fabric_cicd import FabricWorkspace, publish_all_items, unpublish_all_orphan_items
 
-# ... same as before ...
-publish_all_items(ws)
-unpublish_all_orphan_items(ws)
+
 
 p = argparse.ArgumentParser()
 p.add_argument("--workspace_id", required=True)
@@ -31,3 +29,5 @@ ws = FabricWorkspace(
     token_credential=cred,
 )
 publish_all_items(ws)
+
+unpublish_all_orphan_items(ws)
