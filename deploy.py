@@ -17,7 +17,12 @@ ws = FabricWorkspace(
     workspace_id=a.workspace_id,
     environment=a.environment,
     repository_directory="./Fabric_POC",   # must match the folder you connected in Fabric
-    item_type_in_scope=["Notebook"],
+    item_type_in_scope=["Lakehouse",
+        "Notebook",
+        "DataPipeline",
+        "Environment",
+        "SemanticModel",
+        "Report",],
     token_credential=cred,
 )
 publish_all_items(ws)
