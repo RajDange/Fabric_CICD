@@ -1,13 +1,13 @@
 find_replace:
   # DEV workspace ID -> target workspace ID
-  - find_value: "<DEV_WORKSPACE_GUID>"
+  - find_value: "2ba79a79-d85e-48e4-b7c4-ead57073f41c"
     replace_value:
       Testing: "f0da86a4-0a56-4abe-b2ee-cd60ff3d0cb8"
       main: "8262417b-d4e4-43fe-a56f-1f88d8590b1c"
 
   # DEV lakehouse ID -> TEST/PROD lakehouse ID
-  - find_value: "<DEV_LAKEHOUSE_GUID>"
+  - find_value: "edcef8ba-45e3-4ecf-829b-8cbb1c4e59f2"
     replace_value:
-      Testing: "<TEST_LAKEHOUSE_GUID>"
-      main: "<PROD_LAKEHOUSE_GUID>"
+      Testing: "47ea0297-1ec7-4bb5-a442-68c78baa00ea"
+      main: "cca2cd3a-f8f3-41bf-917d-e8f806608d76"
     item_type: "Notebook"
