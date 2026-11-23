@@ -16,7 +16,7 @@ cred = ClientSecretCredential(
 ws = FabricWorkspace(
     workspace_id=a.workspace_id,
     environment=a.environment,
-    repository_directory="./workspace",   # must match the folder you connected in Fabric
+    repository_directory="./Fabric_POC",   # must match the folder you connected in Fabric
     item_type_in_scope=["Notebook"],
     token_credential=cred,
 )
