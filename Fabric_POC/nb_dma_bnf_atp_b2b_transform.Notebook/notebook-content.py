@@ -45,20 +45,3 @@
 # META   "language": "sparksql",
 # META   "language_group": "synapse_pyspark"
 # META }
-
-# MARKDOWN ********************
-
-# Test 2 one more test
-
-# CELL ********************
-
-# MAGIC %%html
-# MAGIC Final test
-
-# METADATA ********************
-
-# META {
-# META   "language": "html",
-# META   "language_group": "synapse_pyspark"
-# META }
-# Test 2
